@@ -1,0 +1,25 @@
+{
+  "name": "EcoFirst_backend",
+  "version": "1.0.0",
+  "description": "EcoFirst",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.13.9",
+    "nodemon": "^2.0.16"
+  }
+}
